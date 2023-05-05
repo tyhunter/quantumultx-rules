@@ -9,6 +9,10 @@
 ;显示IP归属地应用伪装：支持
 
 ;设置规则标志位
+ruleset=🛸 自定义-代理,https://raw.githubusercontent.com/tyhunter/quantumultx-rules/main/Custom-Rules-Proxy.list
+ruleset=⛔ 自定义-拒绝,https://raw.githubusercontent.com/tyhunter/quantumultx-rules/main/Custom-Rules-Reject.list
+ruleset=🇨🇳 自定义-直连,https://raw.githubusercontent.com/tyhunter/quantumultx-rules/main/Custom-Rules-Direct.list
+ruleset=🕹 游戏加速,https://raw.githubusercontent.com/tyhunter/quantumultx-rules/main/Gaming-Clash.list.list
 ruleset=🎯 国内流量,https://raw.githubusercontent.com/cutethotw/ClashRule/main/Rule/Inside.list
 ruleset=🚀 国外流量,https://raw.githubusercontent.com/cutethotw/ClashRule/main/Rule/Outside.list
 ruleset=🤖 ChatGPT,https://raw.githubusercontent.com/cutethotw/ClashRule/main/Rule/ChatGPT.list
@@ -49,10 +53,6 @@ ruleset=🎯 国内流量,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 ruleset=🎯 国内流量,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
 ruleset=🎯 国内流量,[]GEOIP,CN
 ruleset=🐟 漏网之鱼,[]FINAL
-ruleset=🛸 自定义-代理,https://raw.githubusercontent.com/tyhunter/quantumultx-rules/main/Custom-Rules-Proxy.list
-ruleset=⛔ 自定义-拒绝,https://raw.githubusercontent.com/tyhunter/quantumultx-rules/main/Custom-Rules-Reject.list
-ruleset=🇨🇳 自定义-直连,https://raw.githubusercontent.com/tyhunter/quantumultx-rules/main/Custom-Rules-Direct.list
-ruleset=🕹 游戏加速,https://raw.githubusercontent.com/tyhunter/quantumultx-rules/main/Gaming-Clash.list.list
 ;设置规则标志位
 
 ;设置分组标志位
