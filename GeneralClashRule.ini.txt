@@ -9,7 +9,6 @@
 ;显示IP归属地应用伪装：支持
 
 ;设置规则标志位
-ruleset=🛸 自定义-代理,https://raw.githubusercontent.com/tyhunter/quantumultx-rules/main/Custom-Rules-Proxy.list
 ruleset=⛔ 自定义-拒绝,https://raw.githubusercontent.com/tyhunter/quantumultx-rules/main/Custom-Rules-Reject.list
 ruleset=🇨🇳 自定义-直连,https://raw.githubusercontent.com/tyhunter/quantumultx-rules/main/Custom-Rules-Direct.list
 ruleset=🤖 ChatGPT,https://raw.githubusercontent.com/tyhunter/quantumultx-rules/main/ChatGPT.list
@@ -64,7 +63,6 @@ custom_proxy_group=🔓 流媒体解锁`select`(流媒体)
 custom_proxy_group=🚀 国外流量`select`[]♻️ 自动选择`[]🔯 故障转移`[]🔮 负载均衡`[]✈️ 手动选择`[]🛩️ 手动选择备用`[]🚁 自建节点`[]🇸🇬 新加坡`[]🇺🇸 美国`[]🇯🇵 日本`[]🇭🇰 香港`[]🇰🇷 韩国
 custom_proxy_group=✈️ 手动选择`select`.*
 custom_proxy_group=🛩️ 手动选择备用`select`.*
-custom_proxy_group=🛸 自定义-代理`select`[]✈️ 手动选择`[]🛩️ 手动选择备用`[]🚁 自建节点`[]🇸🇬 新加坡`[]🇺🇸 美国`[]🇯🇵 日本`[]🇭🇰 香港`[]🇰🇷 韩国
 custom_proxy_group=⛔ 自定义-拒绝`select`[]REJECT`[]🎯 国内流量`[]🚀 国外流量
 custom_proxy_group=🇨🇳 自定义-直连`select`[]DIRECT`[]✈️ 手动选择`[]🛩️ 手动选择备用`[]🚁 自建节点
 custom_proxy_group=🚁 自建节点`select`(Oracle|自建)
