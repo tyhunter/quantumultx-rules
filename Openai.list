@@ -1,0 +1,5 @@
+HOST-SUFFIX,openai.com,OpenAi
+HOST-SUFFIX,auth0.com,OpenAi
+HOST-SUFFIX,sentry.io,OpenAi
+DOMAIN-SUFFIX,oaistatic.com,OpenAi
+DOMAIN-SUFFIX,oaiusercontent.com,OpenAi
