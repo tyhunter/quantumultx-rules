@@ -12,7 +12,7 @@
 ruleset=⛔ 自定义-拒绝,https://raw.githubusercontent.com/tyhunter/quantumultx-rules/main/Custom-Rules-Reject.list
 ruleset=🇨🇳 自定义-直连,https://raw.githubusercontent.com/tyhunter/quantumultx-rules/main/Custom-Rules-Direct.list
 ruleset=🤖 ChatGPT,https://raw.githubusercontent.com/tyhunter/quantumultx-rules/main/ChatGPT.list
-ruleset=▶️ Emby,https://raw.githubusercontent.com/tyhunter/quantumultx-rules/main/emby.list
+ruleset=📽️ Emby,https://raw.githubusercontent.com/tyhunter/quantumultx-rules/main/emby.list
 ruleset=🕹 游戏加速,https://raw.githubusercontent.com/tyhunter/quantumultx-rules/main/Gaming-Clash.list.list
 ruleset=🎯 国内流量,https://raw.githubusercontent.com/cutethotw/ClashRule/main/Rule/Inside.list
 ruleset=🚀 国外流量,https://raw.githubusercontent.com/cutethotw/ClashRule/main/Rule/Outside.list
@@ -65,7 +65,7 @@ custom_proxy_group=🛩️ 手动选择备用`select`.*
 custom_proxy_group=⛔ 自定义-拒绝`select`[]REJECT`[]🎯 国内流量`[]🚀 国外流量
 custom_proxy_group=🇨🇳 自定义-直连`select`[]DIRECT`[]✈️ 手动选择`[]🛩️ 手动选择备用`[]🚁 自建节点
 custom_proxy_group=🚁 自建节点`select`(Oracle|自建)
-custom_proxy_group=▶️ Emby`select`[]DIRECT`[]✈️ 手动选择
+custom_proxy_group=📽️ Emby`select`[]DIRECT`[]✈️ 手动选择
 custom_proxy_group=🎮 XBOX`select`[]DIRECT`[]✈️ 手动选择
 custom_proxy_group=🧸 PlayStation`select`[]DIRECT`[]✈️ 手动选择
 custom_proxy_group=📶 测速平台`select`[]DIRECT`[]✈️ 手动选择
