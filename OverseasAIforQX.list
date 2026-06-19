@@ -1,0 +1,102 @@
+# Quantumult X local filter rules
+# Replace AI with your actual policy name.
+
+# OPENAI
+# Core
+host-suffix, ai.com, AI
+host-suffix, chat.com, AI
+host-suffix, chatgpt.com, AI
+host-suffix, chatgpt.livekit.cloud, AI
+host-suffix, crixet.com, AI
+host-suffix, oaistatic.com, AI
+host-suffix, oaiusercontent.com, AI
+host-suffix, openai.com, AI
+host-suffix, openaiapi-site.azureedge.net, AI
+host-suffix, openaicom.imgix.net, AI
+host-suffix, sora.com, AI
+host-keyword, chatgpt-async-webps-prod, AI
+host-keyword, openai, AI
+
+# Network
+ip-cidr, 199.47.142.0/23, AI, no-resolve
+ip-cidr, 24.199.123.28/32, AI, no-resolve
+ip-cidr, 64.23.132.171/32, AI, no-resolve
+ip6-cidr, 2604:f20::/32, AI, no-resolve
+
+# Third-Party
+host, browser-intake-datadoghq.com, AI
+host, openai-api.arkoselabs.com, AI
+host, openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net, AI
+host, openaicomproductionae4b.blob.core.windows.net, AI
+host, production-openaicom-storage.azureedge.net, AI
+host, static.cloudflareinsights.com, AI
+host-suffix, algolia.net, AI
+host-suffix, api.statsig.com, AI
+host-suffix, auth0.com, AI
+host-suffix, client-api.arkoselabs.com, AI
+host-suffix, events.statsigapi.net, AI
+host-suffix, featuregates.org, AI
+host-suffix, host.livekit.cloud, AI
+host-suffix, identrust.com, AI
+host-suffix, intercom.io, AI
+host-suffix, intercomcdn.com, AI
+host-suffix, launchdarkly.com, AI
+host-suffix, oaistatsig.com, AI
+host-suffix, observeit.net, AI
+host-suffix, openai.com.cdn.cloudflare.net, AI
+host-suffix, segment.io, AI
+host-suffix, sentry.io, AI
+host-suffix, statsigapi.net, AI
+host-suffix, stripe.com, AI
+host-suffix, turn.livekit.cloud, AI
+host-wildcard, chatgpt-async-webps-prod-*-*.webpubsub.azure.com, AI
+
+# OPIC / CLAUDE
+# Core
+host-suffix, opic.com, AI
+host-suffix, opic.com.cn, AI
+host-suffix, antspace.dev, AI
+host-suffix, clau.de, AI
+host-suffix, claude.ai, AI
+host-suffix, claude.app, AI
+host-suffix, claude.com, AI
+host-suffix, claude.new, AI
+host-suffix, claude.site, AI
+host-suffix, claudemcpclient.com, AI
+host-suffix, claudemcpcontent.com, AI
+host-suffix, claudepages.dev, AI
+host-suffix, claudestudio.com, AI
+host-suffix, claudeusercontent.com, AI
+host-suffix, modelcontextprotocol.com, AI
+host-suffix, modelcontextprotocol.io, AI
+host-suffix, modelcontextprotocol.net, AI
+host-suffix, modelcontextprotocol.org, AI
+
+# Network
+ip-cidr, 160.79.104.0/21, AI, no-resolve
+ip6-cidr, 2607:6bc0::/32, AI, no-resolve
+
+# Third-Party
+host, opic-com.ghost.io, AI
+host, opic.auth0.com, AI
+host, opic.com.cdn.cloudflare.net, AI
+host, browser-intake-us5-datadoghq.com, AI
+host, cdn.growthbook.io, AI
+host, cdn.usefathom.com, AI
+host, servd-opic-website.b-cdn.net, AI
+host, storage.googleapis.com, AI
+host-suffix, opic.team, AI
+host-suffix, chatbotclaude.com, AI
+host-suffix, intercom.io, AI
+host-suffix, intercomcdn.com, AI
+host-suffix, interface.feedback, AI
+host-suffix, lcicat.org, AI
+host-suffix, lcicollections.org, AI
+host-suffix, mcpservertest.online, AI
+host-suffix, muthos.com, AI
+host-suffix, sentry.io, AI
+host-suffix, sillylittleguy.org, AI
+host-suffix, statsigapi.net, AI
+host-keyword, datadog, AI
+host-keyword, sentry, AI
+host-keyword, sift, AI
